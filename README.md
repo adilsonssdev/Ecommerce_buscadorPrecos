@@ -25,23 +25,21 @@ Este projeto é um poderoso buscador de preços que varre automaticamente os pri
 
 ## 💻 Telas da Aplicação
 
-> **Nota:** Para que as imagens apareçam, você precisa:
-> 1. Criar uma pasta `docs` na raiz do projeto.
-> 2. Salvar as imagens `tela_busca.png` e `tela_resultados.gif` dentro dela.
-> 3. Substituir `<SEU-USUARIO-GITHUB>` e `<SEU-REPOSITORIO>` nos links abaixo.
+A interface foi projetada para ser limpa, intuitiva e responsiva, funcionando bem tanto em desktops quanto em dispositivos móveis.
 
-### Tela Principal e Busca
-*Tela inicial da aplicação, com produtos em destaque, categorias e a barra de busca.*
+### Visualização Desktop
+*Visão completa com filtros na lateral e uma grade ampla de produtos.*
 
-!Tela de Busca
+!Tela de Resultados - Desktop
 
-### Página de Resultados
-*Página de resultados exibindo os produtos encontrados, com filtros de loja, marca, preço e ordenação.*
+<img src="./img/tela1.png">
 
-!Tela de Resultados
-src(img/tela1.png)
+### Visualização Mobile
+*Experiência otimizada para telas menores, com os mesmos recursos de busca e filtro acessíveis de forma compacta.*
 
-src(img/tela2.png)
+!Tela de Resultados - Mobile
+
+<img src="./img/tela2.png">
 
 ## 🛠️ Tecnologias Utilizadas
 
