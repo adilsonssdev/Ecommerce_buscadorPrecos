@@ -1,4 +1,4 @@
-# Price Hunter 🏹💰
+# Buscador de Preços 🏹💰
 
 **Seu assistente pessoal para encontrar os menores preços na web!**
 
@@ -7,18 +7,10 @@
 [![Beautiful Soup](https://img.shields.io/badge/Scraping-BeautifulSoup-orange.svg)](https://www.crummy.com/software/BeautifulSoup/)
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)](https://pages.github.com/)
 
----
-
-### [➡️ Acesse a Demonstração Ao Vivo](https://<SEU-USUARIO-GITHUB>.github.io/<SEU-REPOSITORIO>/)
-
-*(Nota: A demonstração ao vivo usa dados de exemplo. Para buscas em tempo real, execute o projeto localmente.)*
-
-![Demonstração da Interface Web](https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/docs/demo.gif)
-*(Substitua pelo GIF/imagem de demonstração do seu projeto)*
 
 ## 🎯 Sobre o Projeto
 
-Cansado de abrir dezenas de abas para comparar o preço daquele produto que você tanto deseja? O **Price Hunter** é a sua solução!
+Cansado de abrir dezenas de abas para comparar o preço daquele produto que você tanto deseja? O **Buscador de Preços** é a sua solução!
 
 Este projeto é um poderoso buscador de preços que varre automaticamente os principais e-commerces do Brasil (começando com **Magazine Luiza** e **Amazon**) para encontrar as melhores ofertas para você. Seja para uma busca rápida ou para monitorar um produto por dias, o Price Hunter trabalha por você, economizando seu tempo e, o mais importante, seu dinheiro!
 
