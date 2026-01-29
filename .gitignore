@@ -1,0 +1,41 @@
+# Arquivos de Bytecode e Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas de ambiente virtual
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos gerados pela aplicação
+# Descomente a linha abaixo se não quiser versionar os arquivos .json e .html
+# data/
+
+# Pasta de instância do Flask (para configurações e banco de dados)
+instance/
+
+# Arquivos de cache e relatórios de teste
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Pacotes e distribuição
+build/
+dist/
+*.egg-info/

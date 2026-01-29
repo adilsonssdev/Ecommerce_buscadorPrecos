@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Preços | O melhor comparador de preços</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container top-bar">
+            <div class="logo-section">
+                <h1>Buscador de <span>Preços</span></h1>
+                <div class="categories-wrapper">
+                    <button id="btn-categories" class="categories-btn">
+                        <i class="fa-solid fa-bars"></i>
+                        Categorias
+                    </button>
+                    <div id="megamenu" class="megamenu">
+                        <div class="megamenu-container">
+                            <div class="megamenu-column">
+                                <h3>Eletrodomésticos</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Ar-Condicionado">Ar-Condicionado</a>
+                                    </li>
+                                    <li><a href="#" class="cat-link" data-search="Geladeira">Geladeira</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Fogão">Fogão</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Máquina de Lavar">Máquina de Lavar</a>
+                                    </li>
+                                    <li><a href="#" class="cat-link" data-search="Micro-ondas">Micro-ondas</a></li>
+                                </ul>
+                                <h3>Celulares e Telefones</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="iPhone">iPhone</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Samsung Galaxy">Samsung Galaxy</a>
+                                    </li>
+                                    <li><a href="#" class="cat-link" data-search="Xiaomi">Xiaomi</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Smartphones">Smartphones</a></li>
+                                </ul>
+                            </div>
+                            <div class="megamenu-column">
+                                <h3>Informática</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Notebook">Notebook</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Monitor">Monitor</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Impressora">Impressora</a></li>
+                                    <li><a href="#" class="cat-link" data-search="SSD">SSD</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Mouse Gamer">Mouse Gamer</a></li>
+                                </ul>
+                                <h3>TV e Eletrônicos</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Smart TV">Smart TV</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Som e Áudio">Som e Áudio</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Home Theater">Home Theater</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Câmeras">Câmeras</a></li>
+                                </ul>
+                            </div>
+                            <div class="megamenu-column">
+                                <h3>Bebês</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Carrinho de Bebê">Carrinho de Bebê</a>
+                                    </li>
+                                    <li><a href="#" class="cat-link" data-search="Fraldas">Fraldas</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Brinquedos para Bebê">Brinquedos para
+                                            Bebê</a></li>
+                                </ul>
+                                <h3>Automotivo</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Pneus">Pneus</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Som Automotivo">Som Automotivo</a>
+                                    </li>
+                                    <li><a href="#" class="cat-link" data-search="Capacete">Capacete</a></li>
+                                </ul>
+                            </div>
+                            <div class="megamenu-column">
+                                <h3>Pet Shop</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Ração">Ração</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Acessórios Pet">Acessórios Pet</a>
+                                    </li>
+                                </ul>
+                                <h3>Casa e Jardim</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Móveis">Móveis</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Decoração">Decoração</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Ferramentas">Ferramentas</a></li>
+                                </ul>
+                            </div>
+                            <div class="megamenu-column">
+                                <h3>Beleza e Saúde</h3>
+                                <ul>
+                                    <li><a href="#" class="cat-link" data-search="Secador de Cabelo">Secador de
+                                            Cabelo</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Barbeador">Barbeador</a></li>
+                                    <li><a href="#" class="cat-link" data-search="Perfumes">Perfumes</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-info" id="cep-trigger">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="cep-display">Informe seu CEP</span>
+                </div>
+            </div>
+            <form id="search-form">
+                <input type="text" id="search-term" placeholder="O que você está procurando?" required>
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Seção Inicial (Home) -->
+        <div id="home-view" class="home-section">
+            <div class="home-grid">
+                <aside class="sidebar home-sidebar">
+                    <div class="filter-group">
+                        <div class="filter-title">Categorias Populares</div>
+                        <div class="sidebar-categories">
+                            <div class="category-group">
+                                <div class="category-group-header">
+                                    <span>Eletrodomésticos</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                                <div class="category-group-content">
+                                    <label class="category-item" data-search="Geladeira">Geladeira</label>
+                                    <label class="category-item" data-search="Fogão">Fogão</label>
+                                    <label class="category-item" data-search="Máquina de Lavar">Máquina de Lavar</label>
+                                    <label class="category-item" data-search="Ar-Condicionado">Ar-Condicionado</label>
+                                </div>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-header">
+                                    <span>Eletrônicos</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                                <div class="category-group-content">
+                                    <label class="category-item" data-search="Smartphones">Smartphones</label>
+                                    <label class="category-item" data-search="iPhone">iPhone</label>
+                                    <label class="category-item" data-search="Smart TV">Smart TV</label>
+                                    <label class="category-item" data-search="Notebooks">Notebooks</label>
+                                    <label class="category-item" data-search="Fones de Ouvido">Fones de Ouvido</label>
+                                </div>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-header">
+                                    <span>Casa e Construção</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                                <div class="category-group-content">
+                                    <label class="category-item" data-search="Móveis">Móveis</label>
+                                    <label class="category-item" data-search="Ferramentas">Ferramentas</label>
+                                    <label class="category-item" data-search="Iluminação">Iluminação</label>
+                                </div>
+                            </div>
+                            <div class="category-group">
+                                <div class="category-group-header">
+                                    <span>Outros</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                                <div class="category-group-content">
+                                    <label class="category-item" data-search="Games">Games</label>
+                                    <label class="category-item" data-search="Beleza e Saúde">Beleza e Saúde</label>
+                                    <label class="category-item" data-search="Brinquedos">Brinquedos</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="home-content">
+                    <h2 class="section-title">Inspirado em Você</h2>
+                    <div id="featured-grid" class="produtos-grid">
+                        <!-- Produtos em destaque aparecerão aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visualização de Resultados -->
+        <div id="search-view" style="display: none;">
+            <div class="results-container">
+                <aside class="sidebar results-sidebar">
+                    <h2 class="sidebar-main-title">filtrar por</h2>
+
+                    <div class="filter-group">
+                        <div class="filter-title">Lojas</div>
+                        <div id="store-filters" class="filter-options">
+                            <!-- Filtros de loja dinâmicos -->
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <div class="filter-title">Preço</div>
+                        <div class="filter-options price-options-container" id="price-filters">
+                            <!-- Filtros de preço dinâmicos -->
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <div class="filter-title">Marca</div>
+                        <div id="brand-filters" class="filter-options">
+                            <!-- Filtros de marca dinâmicos -->
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="main-content">
+                    <div id="loader" class="loader-container" style="display: none;">
+                        <div class="loader"></div>
+                        <p>Buscando as melhores ofertas...</p>
+                    </div>
+
+                    <div class="results-header" style="display: none;">
+                        <div id="results-info"></div>
+                        <div class="sorting-container">
+                            <label for="sort-select">Ordenar por:</label>
+                            <select id="sort-select">
+                                <option value="relevance">Mais Relevantes</option>
+                                <option value="price-asc">Menor Preço</option>
+                                <option value="price-desc">Maior Preço</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="results-grid" class="produtos-grid">
+                        <!-- Os resultados da busca aparecerão aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Buscador de Preços © 2026 - Compare preços e economize</p>
+    </footer>
+
+    <!-- Modal de CEP -->
+    <div id="modal-cep" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Informe seu CEP</h2>
+            <p>Veja as melhores ofertas e condições de frete disponíveis para a sua região</p>
+
+            <div class="cep-input-container">
+                <input type="text" id="modal-cep-input" placeholder="00000-000" maxlength="9">
+                <i id="cep-check-icon" class="fa-solid fa-circle-check cep-check-icon"></i>
+                <div id="cep-status" class="cep-status"></div>
+            </div>
+
+            <div id="address-preview" class="address-preview" style="display: none;">
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="address-text"></span>
+            </div>
+
+            <button id="btn-confirmar-cep" class="btn-confirmar">Confirmar</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

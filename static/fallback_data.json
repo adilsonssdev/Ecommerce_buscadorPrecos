@@ -1,0 +1,21 @@
+{
+    "sucesso": true,
+    "termo_busca": "demonstração",
+    "total_encontrados": 2,
+    "produtos": [
+        {
+            "nome": "Smartphone Samsung Galaxy S23 (Exemplos Estáticos)",
+            "preco": 3499.00,
+            "link": "#",
+            "imagem": "https://placehold.co/400x400?text=Smartphone+Samsung",
+            "site": "Magazine Luiza"
+        },
+        {
+            "nome": "Smart TV 50 Polegadas 4K Ultra HD (Exemplos Estáticos)",
+            "preco": 2199.00,
+            "link": "#",
+            "imagem": "https://placehold.co/400x400?text=Smart+TV+4K",
+            "site": "Amazon"
+        }
+    ]
+}
