@@ -7,12 +7,11 @@
 [![Beautiful Soup](https://img.shields.io/badge/Scraping-BeautifulSoup-orange.svg)](https://www.crummy.com/software/BeautifulSoup/)
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen)](https://pages.github.com/)
 
-
 ## 🎯 Sobre o Projeto
 
 Cansado de abrir dezenas de abas para comparar o preço daquele produto que você tanto deseja? O **Buscador de Preços** é a sua solução!
 
-Este projeto é um poderoso buscador de preços que varre automaticamente os principais e-commerces do Brasil (começando com **Magazine Luiza** e **Amazon**) para encontrar as melhores ofertas para você. Seja para uma busca rápida ou para monitorar um produto por dias, o Price Hunter trabalha por você, economizando seu tempo e, o mais importante, seu dinheiro!
+Este projeto é um poderoso buscador de preços que varre automaticamente os principais e-commerces do Brasil (começando com **Magazine Luiza** e **Amazon**) para encontrar as melhores ofertas para você. Seja para uma busca rápida ou para monitorar um produto por dias, o Buscador de Preços trabalha por você, economizando seu tempo e, o mais importante, seu dinheiro!
 
 ## ✨ Funcionalidades Principais
 
@@ -62,7 +61,7 @@ Os sites de e-commerce alteram sua estrutura (HTML/CSS) com frequência. Se o bu
 
 ## 🏃‍♂️ Modos de Execução
 
-Você pode usar o Price Hunter de três maneiras diferentes:
+Você pode usar o Buscador de Preços de três maneiras diferentes:
 
 ### Modo 1: Busca Rápida (Linha de Comando)
 
