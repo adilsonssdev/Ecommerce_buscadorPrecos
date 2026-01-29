@@ -32,14 +32,16 @@ A interface foi projetada para ser limpa, intuitiva e responsiva, funcionando be
 
 !Tela de Resultados - Desktop
 
-<img src="./img/tela1.png">
+<img src="./img/tela1.png" width="500">
 
 ### Visualização Mobile
 *Experiência otimizada para telas menores, com os mesmos recursos de busca e filtro acessíveis de forma compacta.*
 
 !Tela de Resultados - Mobile
 
-<img src="./img/tela2.png">
+<img src="./img/tela2.png" width="150">
+
+
 
 ## 🛠️ Tecnologias Utilizadas
 
