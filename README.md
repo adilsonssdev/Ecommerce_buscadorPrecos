@@ -23,6 +23,26 @@ Este projeto é um poderoso buscador de preços que varre automaticamente os pri
 -   🧩 **Fácil de Estender:** Adicione novas lojas para buscar com apenas algumas linhas de código.
 -   🎨 **Design Responsivo:** Acesse de qualquer dispositivo, seja no desktop ou no celular.
 
+## 💻 Telas da Aplicação
+
+> **Nota:** Para que as imagens apareçam, você precisa:
+> 1. Criar uma pasta `docs` na raiz do projeto.
+> 2. Salvar as imagens `tela_busca.png` e `tela_resultados.gif` dentro dela.
+> 3. Substituir `<SEU-USUARIO-GITHUB>` e `<SEU-REPOSITORIO>` nos links abaixo.
+
+### Tela Principal e Busca
+*Tela inicial da aplicação, com produtos em destaque, categorias e a barra de busca.*
+
+!Tela de Busca
+
+### Página de Resultados
+*Página de resultados exibindo os produtos encontrados, com filtros de loja, marca, preço e ordenação.*
+
+!Tela de Resultados
+src(img/tela1.png)
+
+src(img/tela2.png)
+
 ## 🛠️ Tecnologias Utilizadas
 
 -   **Backend:** Python
@@ -61,7 +81,7 @@ Os sites de e-commerce alteram sua estrutura (HTML/CSS) com frequência. Se o bu
 
 ## 🏃‍♂️ Modos de Execução
 
-Você pode usar o Buscador de Preços de três maneiras diferentes:
+Você pode usar o Price Hunter de três maneiras diferentes:
 
 ### Modo 1: Busca Rápida (Linha de Comando)
 
