@@ -39,9 +39,7 @@ A interface foi projetada para ser limpa, intuitiva e responsiva, funcionando be
 
 !Tela de Resultados - Mobile
 
-<img src="./img/tela2.png" width="150">
-
-
+<img src="./img/tela2.png" width="150"> <img src="./img/tela3.png" width="300"> 
 
 ## 🛠️ Tecnologias Utilizadas
 
