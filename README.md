@@ -133,7 +133,7 @@ O projeto foi pensado para ser extensível. Para adicionar uma nova loja:
     self.sites_config = {
         # ... sites existentes
         "nome_da_loja": {
-            "url_busca": "https://www.novaloja.com.br/buscar?q=",
+            "url_busca": "https://ecommerce-buscadorprecos.onrender.com/",
             "ativo": True,
             "parser": self._parse_nova_loja, # Crie esta função
         },
